@@ -30,6 +30,13 @@ public class Bedroom extends Room{
                 "bed=" + bed +
                 ", wardrobe=" + wardrobe +
                 ", carpet=" + carpet +
+                "name='" + getName() + '\'' +
+                ", wall1=" + getWall1() +
+                ", wall2=" + getWall2() +
+                ", wall3=" + getWall3() +
+                ", wall4=" + getWall4() +
+                ", ceiling=" + getCeiling() +
+                ", lamp=" + getLamp() +
                 '}';
     }
 }
